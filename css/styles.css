@@ -1,0 +1,111 @@
+
+
+/*навігація, заголовки  #212121*/
+/*тел, основний контент #757575*/
+/*бекграунд #2F303A*/
+/*колір фону нав #FFFFFF*/
+/*бекграунд осн #E5E5E5*/
+
+body {
+    font-family: 'Roboto',
+    sans-serif;
+    color: #212121;
+}
+ /*Шапка*/
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;  
+}
+.menu-link:hover,
+.menu-link:focus {
+   color: #2196F3;
+}
+
+.site-tel-link {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: #757575;
+}
+.site-tel-link:hover,
+.site-tel-link:focus {
+    color: #2196F3;
+
+    /*Герой */
+}
+.main-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #FFFFFF; 
+}
+.main-section {
+    background: #2F303A;
+}
+.model-btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    cursor: pointer;
+    background: transparent;
+   
+}
+.model-btn:hover,
+.model-btn:focus{
+ background-color: #2196F3;
+ color: #FFFFFF;
+}
+
+ /* О компании*/
+ .title-section {
+     font-weight: bold;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+    
+ }
+.content {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+/* Наша команда*/
+.title-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+}
+.content-team {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.1875;
+    color: #757575;
+}
+/* Футер*/
+.footer-section {
+    background: #2F303A;
+}
+.footer-address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    color: #FFFFFF;
+}
+.footer-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+     color: rgba(255, 255, 255, 0.6);
+}
