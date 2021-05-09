@@ -1,15 +1,18 @@
 
 
-/*навігація, заголовки  #212121*/
-/*тел, основний контент #757575*/
-/*бекграунд #2F303A*/
-/*колір фону нав #FFFFFF*/
-/*бекграунд осн #E5E5E5*/
-
 body {
     font-family: 'Roboto',
     sans-serif;
     color: #212121;
+}
+.logo {
+    font-family: 'Raleway',
+    sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+
 }
  /*Шапка*/
 
