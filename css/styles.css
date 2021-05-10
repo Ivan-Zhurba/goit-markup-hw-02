@@ -5,8 +5,12 @@
     --address-color: #757575;
     --background-textcolor: #fff;
     --btn-hovercolor: #188CE8;
-    --footer-addresscolor:rgba(255, 255, 255, 0.6)
+    --footer-addresscolor:rgba(255, 255, 255, 0.6);
+    --bcg-fonlink: #F5F4FA;
 }
+/*background: #F5F4FA; фон силок*/
+/*background: #F5F4FA; фон силок*/
+/*background: #F5F4FA; фон силок*/
 
 .link{
     text-decoration: none;
@@ -33,7 +37,12 @@ body {
     font-size: 26px;
     line-height: 1.19;
     color: var(--second-color);
-
+}
+.logo-color{
+    color: var(--main-textcolor);
+}
+.logo-color-footer{
+    color: var(--background-textcolor);
 }
  /*Шапка*/
 
@@ -74,9 +83,10 @@ body {
    background: var(--background-color);
 }
 .model-btn {
-     font-family: 'Roboto',
-     sans-serif;
-    font-weight: bold;
+    font-family: inherit;
+    font-family: 'Roboto',
+    sans-serif;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
     cursor: pointer;
@@ -96,7 +106,7 @@ body {
 }
  /* ===========О компании==========*/
  .title-section {
-     font-weight: bold;
+     font-weight: 700;
      font-size: 14px;
      line-height: 1.14;
      letter-spacing: 0.03em;
@@ -140,3 +150,31 @@ body {
     line-height: 1.714;
      color: var(--footer-addresscolor);
     }
+
+
+    /*===================================PORTFOLIO===================================*/
+.button{
+    font-family: inherit;
+    color: var(--main-textcolor);
+    background: var(--bcg-fonlink);
+}
+.button:focus, 
+.button:hover,
+.button:active{
+    background: var(--second-color);
+    color: var(--background-textcolor);
+}
+.site-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.site-grup{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.03em;
+    color: var(--address-color);
+
+}
